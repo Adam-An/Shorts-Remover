@@ -4,7 +4,7 @@
 
 **Restore YouTube as it is.** Shorts Remover is a lightweight browser extension that strips YouTube Shorts out of your feed, sidebar, and search results — automatically, continuously, and without sending any of your data anywhere.
 
-![Before and after using Shorts Remover](screen01.png)
+![Before and after using Shorts Remover](screen01.jpg)
 
 ## What it does
 
