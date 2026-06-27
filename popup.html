@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shorts Remover</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+  <div class="popup">
+
+    <!-- Slash FX layer -->
+    <div class="slash-wrap">
+      <div class="slash-line" id="slashEl"></div>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+
+      <!-- Broken-S logo -->
+      <div class="logo-box">
+        <img src="icons/shorts-remover-48-white.png" alt="Girl in a jacket" width="48" height="48">
+      </div>
+
+      <div class="title-group">
+        <div class="t-line bright">Shorts</div>
+        <div class="t-line muted">Remover</div>
+      </div>
+
+      <div class="badge">v 1.0</div>
+    </div>
+
+    <!-- Toggle section -->
+    <div class="toggle-row">
+      <div>
+        <div class="status-label">Extension Status</div>
+        <!-- ID kept identical to original for JS compatibility -->
+        <div id="statusText" class="on">Enabled</div>
+      </div>
+
+      <!-- Hidden real checkbox – JS listens to its change event -->
+      <input type="checkbox" id="enableToggle" checked>
+
+      <!-- Visual toggle – wired up in popup.js, no inline handler -->
+      <div class="toggle on" id="toggleVisual">
+        <div class="thumb"></div>
+      </div>
+    </div>
+
+    <!-- Feature list -->
+    <div class="features active" id="featsEl">
+      <div class="feat-label">What it does</div>
+      <div class="feat-item">
+        <div class="feat-pip"></div>
+        <div class="feat-text">Removes YouTube Shorts from your feed</div>
+      </div>
+      <div class="feat-item">
+        <div class="feat-pip"></div>
+        <div class="feat-text">Clears unwanted Shorts sections</div>
+      </div>
+      <div class="feat-item">
+        <div class="feat-pip"></div>
+        <div class="feat-text">Works continuously as you scroll</div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer-text">Shorts Remover &nbsp;·&nbsp; Built for focus</div>
+    </div>
+
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
