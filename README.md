@@ -30,7 +30,7 @@ Not on the Chrome Web Store yet — install it directly from this repo. Takes ab
 ### Opera
 Same steps — just open `opera://extensions` instead of `chrome://extensions`. Opera is Chromium-based, so the rest of the flow is identical.
 
-A full walkthrough with screenshots is also available in [`install.html`](install.html).
+A full walkthrough with screenshots is also available in [`install page`](https://youtubeshortsremover.me/install.html).
 
 ## How it works
 
@@ -43,7 +43,7 @@ Shorts Remover runs as a single content script (`content.js`) that:
 
 ## Privacy
 
-Shorts Remover doesn't collect, store, or transmit any data. It only touches the DOM of youtube.com pages you're already viewing, locally, in your own browser. Full details in the [Privacy Policy](privacy-policy.html).
+Shorts Remover doesn't collect, store, or transmit any data. It only touches the DOM of youtube.com pages you're already viewing, locally, in your own browser. Full details in the [Privacy Policy page](https://youtubeshortsremover.me/privacy-policy.html).
 
 ## Contributing
 
